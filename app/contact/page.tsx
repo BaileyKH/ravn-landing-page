@@ -69,7 +69,7 @@ export default function Contact() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Have questions about RAVN? We'd love to hear from you and help shape the future of food discovery.
+              Have questions about RAVN? We&rsquo;d love to hear from you and help shape the future of food discovery.
             </p>
           </motion.div>
           <motion.div

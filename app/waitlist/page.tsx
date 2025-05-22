@@ -95,7 +95,7 @@ export default function Waitlist() {
                     {submitted ? (
                       <>
                         <FiCheck className="text-xl" />
-                        <span>You're In!</span>
+                        <span>You&rsquo;re In!</span>
                       </>
                     ) : (
                       <>
@@ -136,7 +136,7 @@ export default function Waitlist() {
             <p className="text-2xl text-gray-300">
               <span className="text-accent font-semibold">300+</span> food enthusiasts already joined
             </p>
-            <p className="text-gray-400">Limited spots available. Don't miss out!</p>
+            <p className="text-gray-400">Limited spots available. Don&rsquo;t miss out!</p>
           </motion.div>
         </div>
       </div>

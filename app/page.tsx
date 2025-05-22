@@ -3,17 +3,12 @@
 import React from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { FaApple, FaRoute, FaFilter } from 'react-icons/fa'
+import { FaRoute, FaFilter } from 'react-icons/fa'
 import { MdRestaurant, MdLocationOn, MdDirections } from 'react-icons/md'
-import type { IconType } from 'react-icons'
 import Screenshots from './components/Screenshots'
 import AnimatedBg from './components/AnimatedBg'
 
-interface Feature {
-  title: string
-  description: string
-  icon: IconType
-}
+// FaApple
 
 export default function Home() {
   
