@@ -8,11 +8,14 @@ import Footer from './components/Footer'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'RAVN - Food when you need it, where you need it.',
+  title: 'RAVN - Just Food',
   description: 'Find the perfect food spots near you or along your route. Pure food discovery powered by advanced mapping and filtering.',
-  keywords: 'food discovery, restaurant finder, route planning, React Native app, food spots, Google Maps integration',
+  keywords: 'food discovery, restaurant finder, route planning, food app, food spots, Google Maps integration',
+  icons: {
+    icon: '/favicon.png'
+  },
   openGraph: {
-    title: 'RAVN - Food when you need it, where you need it.',
+    title: 'RAVN - Just Food',
     description: 'Find the perfect food spots near you or along your route. Pure food discovery.',
     type: 'website',
     locale: 'en_US',
